@@ -29,4 +29,9 @@ body {
   }
   li {
     margin-top: 12px;
+  }    
+  @media (max-width: 600px) {
+  body {
+    font-size: 18px;
   }
+}
