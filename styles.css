@@ -1,11 +1,9 @@
-
+/* Add your CSS styles here */
 body {
   font-family: Arial, sans-serif;
 }
 
-.input-container,
-.color-container,
-.nightmode-container {
+.input-container {
   display: flex;
   align-items: center;
 }
@@ -23,8 +21,9 @@ body {
   border-radius: 4px;
 }
 
-#addBtn {
-  background-color: #4CAF50;
+#addBtn,
+#nightmodeBtn {
+  background-color: orange;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -33,7 +32,8 @@ body {
   cursor: pointer;
 }
 
-#addBtn:hover {
+#addBtn:hover,
+#nightmodeBtn:hover {
   background-color: #45a049;
 }
 
